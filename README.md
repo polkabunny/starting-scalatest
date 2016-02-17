@@ -1,6 +1,6 @@
 # starting-scalatest
 
-This assignment requires you to write an acceptance test using Scala Test framework.  This is an easy and fun way to write automated tests for an application
+This assignment requires you to write an acceptance test using Scala Test framework.  This is an easy and fun way to write automated tests for an application.  What is happening behind the scene in this type of test is it mimics real browser actions by navigate to pages, clicking on links and checking contents.
 
 To get setup you will need to have
  * Java 8 installed
@@ -20,6 +20,12 @@ Your task is the write a new test that will
 1. Go to Google.ie
 2. Add input into the search box for VSWare
 3. Open the About Us page and verify its there
+
+You can verify you are on the about us page by checking its title
+```
+pageTitle should be ("About VSware | VSware School MIS - Cloud based school administration and timetabling platform")
+
+```
 
 ## Resources
 
