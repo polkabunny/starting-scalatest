@@ -6,7 +6,7 @@ To get setup you will need to have
  * Java 8 installed
  * Activator installed (https://www.typesafe.com/activator/download)
 
-Once you have downloaded and installed activator you are ready to run your first test which I have written.  To run the test download this code from GitHub using the Download Zip link and
+Once you have downloaded and installed activator you are ready to run your first test which I have written.  To run the test download this code from GitHub using the Download Zip link, unzip it and navigate to the folder on the command line
 
 ```
 $ cd starting-scalatest-master

@@ -15,22 +15,4 @@ class SampleTest  extends FlatSpec with ShouldMatchers with OneServerPerSuite wi
     pageTitle should be ("VSware School MIS - Cloud based school administration and timetabling platform | Cloud and mobile based school administration and timetabling platform")
   }
 
-  "Search for VSWare on Google " should " return VS in the results" in {
-    go to ("http://google.ie")
-    click on "q"
-    textField("q").value = "VSWare"
-    submit()
-    // Google's search is rendered dynamically with JavaScript.
-    eventually {
-      pageTitle should be("VSWare - Google Search")
-      click on linkText("About VSware")
-      eventually {
-        pageTitle should be ("About VSware | VSware School MIS - Cloud based school administration and timetabling platform")
-      }
-    }
-
-
-
-  }
-
 }
